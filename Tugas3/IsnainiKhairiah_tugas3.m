@@ -13,3 +13,5 @@ sampel = [3.15 3.5 5]
 group = [4; 2; 4; 3; 2; 3; 1; 2; 1; 3; 4]
 klasifikasi = fitcknn(Training, group, 'NumNeighbors', 3)
 class = predict(klasifikasi, sampel)
+hasil = class
+
