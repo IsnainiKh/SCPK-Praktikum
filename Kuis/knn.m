@@ -285,6 +285,8 @@ function pushbutton1_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+
+ 
 opts = detectImportOptions('diabetess.csv ');
 opts.SelectedVariableNames = (1:9);
 data = readmatrix('diabetess.csv',opts)
@@ -332,6 +334,8 @@ set(handles.outcome, 'string', klasifikasi);
 
    
  
+
+
 % --- Executes on button press in reset.
 function reset_Callback(hObject, eventdata, handles)
 % hObject    handle to reset (see GCBO)
