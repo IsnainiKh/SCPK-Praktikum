@@ -154,4 +154,4 @@ function run_Callback(hObject, eventdata, handles)
 a = readfis('2_model');
 out = evalfis([handles.style handles.mechanismfault],a);
 set(handles.edit3, 'string',out);
-if
+
